@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../ace.css">
+<script type="text/javascript" src="bmicalc.js"></script>
+</head>
+<body>
+<div id="container">
+	<div id="banner">
+		Ace Tennis
+	</div>
+	<div id="header">
+		<ul>
+		<li> <a href="../Home/Home.php">Home</a></li>
+		<li> <a href="../News/News.php">News</a></li>
+		<li> <a class="current-tab" href="HF.html">Health and Fitness</a></li>
+		<li> <a href="../Rankings/Rankings.html">Rankings</a></li>
+		<li> <a href="../Forum/Forum.php">Feedback</a></li>
+		<li> <a href="../Acknowledgments/Acknowledgments.html">Acknowledgments</a></li>
+		</ul>
+	</div>
+	<div id="topleft">
+		<p class="hftitle">STRENGTH
+		<a href="Strength.html"><img src="Exercise1.jpg" alt="" width="500" height="400"/></a>
+		</p>
+	</div>
+	<div id="topright">
+		<p class="hftitle">QUICKNESS
+		<a href="Quickness.html"><img src="speed.jpg" alt="" width="500" height="400"/></a>
+		</p>
+	</div>
+	<div id="bottomleft">
+		<p class="hftitle">NUTRITION
+		<a href="Nutrition.html"><img src="food.jpg" alt="" width="500" height="400"/></a>
+		</p>
+	</div>
+	<div id="bottomright">
+		<p class="hftitle">CARDIO
+		<a href="Cardio.html"><img src="cardio.jpg" alt="" width="500" height="400"/></a>
+				</p>
+	</div>
+
+	<div id="bmi">
+		<form>
+		<table border="0" width="200" align="center" style="border:1px solid #000">
+		<thead>
+		<tr>
+		<th colspan="2">Body Mass Index</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td colspan="2" align="center">
+			<label for="d1">
+			<input type="radio" id="d1" name="d" value="1,1">cm/kg</label>
+			<label for="d2">
+			<input type="radio" id="d2" name="d" value="2.54,2.2">in/lb</label>
+		</td>
+		</tr>
+
+		<tr>
+		<td align="right">
+		<label for="h">Height:</label></td>
+		<td align="left">
+			<input type="text" id="h" name="h" size="6"></td>
+		</tr>
+
+		<tr>
+		<td align="right"><label for="w">Weight:</label>
+		</td>
+		<td align="left">
+			<input type="text" id="w" name="w" size="6">
+		</td>
+		</tr>
+		<tr>
+		<td colspan="2" align="center">
+			<input type="button" value="Calculate" onclick="calc(this.form);return false;">
+		</td>
+		</tr>
+		<tr>
+		<td align="right"><label for="f">BMI:</label>
+		</td>
+		<td align="left">
+			<input type="text" id="f" name="f" size="6" readonly="readonly">
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		</form>
+
+	</div>
+<div>
+<p>&nbsp;</p></div>
+
+
+</div>
+</body>
+</html>

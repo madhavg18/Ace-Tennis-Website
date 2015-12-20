@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../ace.css">
+</head>
+<body>
+
+<script type="text/javascript">
+function change_rank (num) {
+	if (num == 1) {
+		document.rankImg.src = "Nadal.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 1"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 188 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 27';
+		document.getElementById("rankpoints").innerHTML = 'Points: 13030';
+	}
+	if (num == 2) {
+		document.rankImg.src = "Novak.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 2"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 176 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 26';
+		document.getElementById("rankpoints").innerHTML = 'Points: 12260';
+	}
+	if (num == 3) {
+		document.rankImg.src = "Ferrer.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 5\' 9"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 160 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 31';
+		document.getElementById("rankpoints").innerHTML = 'Points: 5800';
+	}
+	if (num == 4) {
+		document.rankImg.src = "Murray.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 3"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 185 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 26';
+		document.getElementById("rankpoints").innerHTML = 'Points: 5790';
+	}
+	if (num == 5) {
+		document.rankImg.src = "Potro.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 6"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 214 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 25';
+		document.getElementById("rankpoints").innerHTML = 'Points: 5255';
+	}
+	if (num == 6) {
+		document.rankImg.src = "Federer.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 1"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 187 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 32';
+		document.getElementById("rankpoints").innerHTML = 'Points: 4205';
+	}
+	if (num == 7) {
+		document.rankImg.src = "Berd.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 5"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 200 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 28';
+		document.getElementById("rankpoints").innerHTML = 'Points: 4180';
+	}
+	if (num == 8) {
+		document.rankImg.src = "Waw.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' ';
+		document.getElementById("rankweight").innerHTML = 'Weight: 179 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 28';
+		document.getElementById("rankpoints").innerHTML = 'Points: 3730';
+	}
+	if (num == 9) {
+		document.rankImg.src = "Gas.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 1"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 165 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 27';
+		document.getElementById("rankpoints").innerHTML = 'Points: 3300';
+	}
+	if (num == 10) {
+		document.rankImg.src = "Tsonga.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 2"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 200 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 28';
+		document.getElementById("rankpoints").innerHTML = 'Points: 3065';
+	}
+}
+</script>
+</div>
+
+<div id="container">
+	<div id="banner">
+		Ace Tennis
+	</div>
+	<div id="header">
+		<ul>
+		<li> <a href="../Home/Home.php">Home</a></li>
+		<li> <a href="../News/News.php">News</a>
+		<ul class="subrank">
+			<li><a href="../News/Videos.html">Videos</a></li>
+			</ul>
+			</li>
+		<li> <a href="../HF/HF.html">Health and Fitness</a>
+		<ul class="subrank">
+			<li><a href="../HF/Strength.html">Strength</a></li>
+			<li><a href="../HF/Quickness.html">Quickness</a></li>
+			<li><a href="../HF/Nutrition.html">Nutrition</a></li>
+			<li><a href="../HF/Cardio.html">Cardio</a></li>
+		</ul>
+		</li>
+		<li> <a class="current-tab" href="Rankings.html">Rankings</a>
+		<ul class="subrank">
+			<li><a href="../Rankings/Rankings.html">Men</a></li>
+			<li><a href="../Rankings/womenrankings.html">Women</a></li>
+			</ul>
+		</li>
+		<li> <a href="../Forum/Forum.php">Feedback</a></li>
+		<li> <a href="../Acknowledgments/Acknowledgments.html">Acknowledgments</a></li>
+		</ul>
+	</div>
+	<br>
+	<div id="rank">
+	<table class="rank" cellspacing="3px" cellpadding="3px">
+					<tr class="ranks">
+					<th class="rank1" bgcolor="#32399C"><font color="white"><FONT FACE="arial"><font size=2>Rank</font></th>
+					<th class="rank1" bgcolor="#32399C"><font color="white"><FONT FACE="arial"><font size=2>Name</font></th>
+					<th class="rank1" bgcolor="#32399C"><font color="white"><FONT FACE="arial"><font size=2>Tours Played</font></th>
+					<th class="rank1" bgcolor="#32399C"><font color="white"><FONT FACE="arial"><font size=2>Points</font></th>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1"><FONT FACE="arial"><font size=2>1</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (1)">Rafael Nadal</a><span style="padding: 0 50px">&nbsp;</span>(ESP)</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>17</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>13260</font></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1" bgcolor="#D1D0CE"><FONT FACE="arial"><font size=2>2</font></td>
+			 <td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (2)">Novak Djokovic</a><span style="padding: 0 43px">&nbsp;</span>(SRB)</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>18</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>12,260</font></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1"><FONT FACE="arial"><font size=2>3</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (3)">David Ferrer</a><span style="padding: 0 52px">&nbsp;</span>(ESP)</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>24</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>5,800</font></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1" bgcolor="#D1D0CE"><FONT FACE="arial"><font size=2>4</font></td>
+				<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (4)">Andy Murray</a><span style="padding: 0 50px">&nbsp;</span>(GBR)</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>19</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>5,790</font></td>
+
+ 					</tr>
+                                        <tr class="ranks">
+					<td class="rank1"><FONT FACE="arial"><font size=2>5</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (5)">Juan Martin Del Potro</a><span style="padding: 0 24px">&nbsp;</span>(ARG)</font></td>
+
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>21</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>5,255</font></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1" bgcolor="#D1D0CE"><FONT FACE="arial"><font size=2>6</font></td>
+				<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (6)">Roger Federer</a><span style="padding: 0 46px">&nbsp;</span>(SUI)</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>19</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>4,205</font></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1"><FONT FACE="arial"><font size=2>7</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (7)">Tomas Berdych</a><span style="padding: 0 82px">&nbsp;(CZE)</span></font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>24</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>4,180</font></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1" bgcolor="#D1D0CE"><FONT FACE="arial"><font size=2>8</font></td>
+			<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (8)">Stanislas Wawrinka</a><span style="padding: 0 29px">&nbsp;</span>(SUI)</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>25</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>3,730</font></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1"><FONT FACE="arial"><font size=2>9</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (9)">Richard Gasquet</a><span style="padding: 0 38px">&nbsp;</span>(FRA)</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>25</font></td>
+					<td class="rank1"><font color="#357EC7"><FONT FACE="arial"><font size=2>3,300</font></td>
+					</tr>
+					<tr class="ranks"><td class="rank1" bgcolor="#D1D0CE"><FONT FACE="arial"><font size=2>10</font></td>
+			<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2><a id="ranked" href="#" onclick="change_rank (10)">Joe Wilfred Tsonga</a><span style="padding: 0 31px">&nbsp;</span>(FRA)</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>21</font></td>
+					<td class="rank1" bgcolor="#D1D0CE"><font color="#357EC7"><FONT FACE="arial"><font size=2>3,065</font></td>
+					</tr>
+
+
+</div>
+</table>
+
+
+<p>
+
+<div id="rankinfo">
+<p id="rankheight">Height: 6' 1"</p>
+<p id="rankweight">Weight: 188 lbs</p>
+<p id="rankage">Age: 27</p>
+<p id="rankpoints">Points: 13030</p>
+</div>
+<div id="rankpic">
+
+<img id="rankImg1"  name="rankImg" src="Nadal.png">
+</div>
+
+
+</body>
+</html>

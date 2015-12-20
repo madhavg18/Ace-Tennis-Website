@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../ace.css">
+</head>
+<body>
+<script type="text/javascript">
+function change_rank (num) {
+	if (num == 1) {
+		document.rankImg.src = "Nadal.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 1"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 188 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 27';
+		document.getElementById("rankpoints").innerHTML = 'Points: 13030';
+	}
+	if (num == 2) {
+		document.rankImg.src = "Novak.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 2"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 176 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 26';
+		document.getElementById("rankpoints").innerHTML = 'Points: 12260';
+	}
+	if (num == 3) {
+		document.rankImg.src = "Ferrer.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 5\' 9"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 160 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 31';
+		document.getElementById("rankpoints").innerHTML = 'Points: 5800';
+	}
+	if (num == 4) {
+		document.rankImg.src = "Murray.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 3"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 185 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 26';
+		document.getElementById("rankpoints").innerHTML = 'Points: 5790';
+	}
+	if (num == 5) {
+		document.rankImg.src = "Potro.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 6"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 214 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 25';
+		document.getElementById("rankpoints").innerHTML = 'Points: 5255';
+	}
+	if (num == 6) {
+		document.rankImg.src = "Federer.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 1"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 187 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 32';
+		document.getElementById("rankpoints").innerHTML = 'Points: 4205';
+	}
+	if (num == 7) {
+		document.rankImg.src = "Berd.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 5"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 200 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 28';
+		document.getElementById("rankpoints").innerHTML = 'Points: 4180';
+	}
+	if (num == 8) {
+		document.rankImg.src = "Waw.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' ';
+		document.getElementById("rankweight").innerHTML = 'Weight: 179 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 28';
+		document.getElementById("rankpoints").innerHTML = 'Points: 3730';
+	}
+	if (num == 9) {
+		document.rankImg.src = "Gas.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 1"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 165 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 27';
+		document.getElementById("rankpoints").innerHTML = 'Points: 3300';
+	}
+	if (num == 10) {
+		document.rankImg.src = "Tsonga.png";
+		document.getElementById("rankheight").innerHTML = 'Height: 6\' 2"';
+		document.getElementById("rankweight").innerHTML = 'Weight: 200 lbs';
+		document.getElementById("rankage").innerHTML = 'Age: 28';
+		document.getElementById("rankpoints").innerHTML = 'Points: 3065';
+	}
+}
+</script>
+<div id="container">
+	<div id="banner">
+		Ace Tennis
+	</div>
+	<div id="header">
+		<ul>
+		<li> <a href="../Home/Home.php">Home</a></li>
+		<li> <a href="../News/News.php">News</a></li>
+		<li> <a href="../HF/HF.html">Health and Fitness</a></li>
+		<li> <a class="current-tab" href="Rankings.html">Rankings</a></li>
+		<li> <a href="../Forum/Forum.php">Feedback</a></li>
+		<li> <a href="../Acknowledgments/Acknowledgments.html">Acknowledgments</a></li>
+		</ul>
+	</div>
+	<br>
+	<br>
+	<div id="rank">
+	<table class="rank" cellspacing="4px" cellpadding="8px">
+					<tr class="ranks">
+					<th class="rank1">Rank</th>
+					<th class="rank1">Player</th>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">1</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (1)">Rafael Nadal</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">2</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (2)">Novak Djokovic</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">3</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (3)">David Ferrer</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">4</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (4)">Andy Murray</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">5</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (5)">Juan Martin Del Potro</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">6</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (6)">Roger Federer</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">7</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (7)">Tomas Berdych</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">8</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (8)">Stanisias Wawrinka</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">9</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (9)">Richard Gasquet</a></td>
+					</tr>
+					<tr class="ranks">
+					<td class="rank1">10</td>
+					<td class="rank1"><a id="ranked" href="#" onclick="change_rank (10)">Jo-Wilfried Tsonga</a></td>
+					</tr>
+				</table>
+</div>
+<div id="rankpic">
+<img id="rankImg1" name="rankImg" src="Nadal.png">
+</div>
+<div id="rankinfo">
+<p id="rankheight">Height: 6' 1"</p>
+<p id="rankweight">Weight: 188 lbs</p>
+<p id="rankage">Age: 27</p>
+<p id="rankpoints">Points: 13030</p>
+</div>
+</body>
+</html>
